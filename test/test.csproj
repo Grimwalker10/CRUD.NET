@@ -78,13 +78,66 @@
     <Content Include="Sources\JavaScript\vendor\datatables\datatables.min.js" />
     <Content Include="Sources\JavaScript\vendor\jquery-easing\jquery.easing.min.js" />
     <Content Include="Sources\JavaScript\vendor\jquery\jquey.min.js" />
+    <Content Include="Sources\Pages\Carrito_Compras.aspx" />
     <Content Include="Sources\Pages\Pais.aspx" />
     <Content Include="Sources\Pages\Departamento.aspx" />
     <Content Include="Sources\Pages\Ciudad.aspx" />
+    <Content Include="Sources\Web_principal\css\animate.css" />
+    <Content Include="Sources\Web_principal\css\bootstrap.css" />
+    <Content Include="Sources\Web_principal\css\flex-slider.min.css" />
+    <Content Include="Sources\Web_principal\css\font-awesome.css" />
+    <Content Include="Sources\Web_principal\css\jquery-ui.css" />
+    <Content Include="Sources\Web_principal\css\jquery.fancybox.min.css" />
+    <Content Include="Sources\Web_principal\css\magnific-popup.css" />
+    <Content Include="Sources\Web_principal\css\magnific-popup.min.css" />
+    <Content Include="Sources\Web_principal\css\nice-select.css" />
+    <Content Include="Sources\Web_principal\css\niceselect.css" />
+    <Content Include="Sources\Web_principal\css\owl-carousel.css" />
+    <Content Include="Sources\Web_principal\css\reset.css" />
+    <Content Include="Sources\Web_principal\css\responsive.css" />
+    <Content Include="Sources\Web_principal\css\slicknav.min.css" />
+    <Content Include="Sources\Web_principal\css\themify-icons.css" />
+    <Content Include="Sources\Web_principal\fonts\fontawesome-webfont.svg" />
+    <Content Include="Sources\Web_principal\fonts\themify.svg" />
+    <Content Include="Sources\Web_principal\images\favicon.png" />
+    <Content Include="Sources\Web_principal\images\logo.png" />
+    <Content Include="Sources\Web_principal\images\logo2.png" />
+    <Content Include="Sources\Web_principal\images\map-marker.png" />
+    <Content Include="Sources\Web_principal\images\payment-method.png" />
+    <Content Include="Sources\Web_principal\images\payments.png" />
+    <Content Include="Sources\Web_principal\js\active.js" />
+    <Content Include="Sources\Web_principal\js\bootstrap.min.js" />
+    <Content Include="Sources\Web_principal\js\easing.js" />
+    <Content Include="Sources\Web_principal\js\facnybox.min.js" />
+    <Content Include="Sources\Web_principal\js\finalcountdown.min.js" />
+    <Content Include="Sources\Web_principal\js\flex-slider.js" />
+    <Content Include="Sources\Web_principal\js\gmap.min.js" />
+    <Content Include="Sources\Web_principal\js\jquery-migrate-3.0.0.js" />
+    <Content Include="Sources\Web_principal\js\jquery-ui.min.js" />
+    <Content Include="Sources\Web_principal\js\jquery.min.js" />
+    <Content Include="Sources\Web_principal\js\magnific-popup.js" />
+    <Content Include="Sources\Web_principal\js\map-script.js" />
+    <Content Include="Sources\Web_principal\js\nicesellect.js" />
+    <Content Include="Sources\Web_principal\js\onepage-nav.min.js" />
+    <Content Include="Sources\Web_principal\js\owl-carousel.js" />
+    <Content Include="Sources\Web_principal\js\popper.min.js" />
+    <Content Include="Sources\Web_principal\js\scrollup.js" />
+    <Content Include="Sources\Web_principal\js\slicknav.min.js" />
+    <Content Include="Sources\Web_principal\js\waypoints.min.js" />
+    <Content Include="Sources\Web_principal\js\ytplayer.min.js" />
+    <Content Include="Sources\Web_principal\mail\mail.php" />
+    <Content Include="Sources\Web_principal\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sources\Pages\Carrito_Compras.aspx.cs">
+      <DependentUpon>Carrito_Compras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sources\Pages\Carrito_Compras.aspx.designer.cs">
+      <DependentUpon>Carrito_Compras.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Sources\Pages\Pais.aspx.cs">
       <DependentUpon>Pais.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,6 +162,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Sources\Web_principal\fonts\fontawesome-webfont.eot" />
+    <Content Include="Sources\Web_principal\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Sources\Web_principal\fonts\fontawesome-webfont.woff" />
+    <Content Include="Sources\Web_principal\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Sources\Web_principal\fonts\themify.eot" />
+    <Content Include="Sources\Web_principal\fonts\themify.ttf" />
+    <Content Include="Sources\Web_principal\fonts\themify.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
